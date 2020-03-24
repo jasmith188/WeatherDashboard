@@ -12,7 +12,68 @@
 </head>
 
 <body>
-  
+
+  <header class="container-fluid">
+    <h1>Weather Dashboard</h1>
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <form>
+          <label for="city"> Search for a City:</label>
+          </br>
+          <input class="form-control" type="text" id="city" placeholder="Search City...">
+          <hr>
+          <button type="submit" class="btn btn-primary" id="search">Submit</button>
+        </form>
+        <hr>
+
+        <div id="emptyDiv"></div>
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-12" id="main">
+          </div>
+        </div>
+        <div class="row">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body" id="card1">
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body" id="card2">
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body" id="card3">
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body" id="card4">
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body" id="card5">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/function.js"></script>
 </body>
 
 </html>

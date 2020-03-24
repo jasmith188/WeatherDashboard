@@ -1,7 +1,6 @@
-.col-md-3 {
-    font-size: large;
-    font-weight: bold;
-}
-.list-group-item {
-    font-size: 18px;
+header {
+    color: darkblue;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
 }
